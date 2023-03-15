@@ -21,13 +21,14 @@ public class Principal {
   //     }
        Numero numero = new Numero();
         numero.valor = 4;
-        System.out.print(numero.parImpar( 2));
+        System.out.println(numero.parImpar( 2));
 
-        System.out.print(numero.maiorValor(6, 8));
+        System.out.println(numero.maiorValor(6, 8));
+        System.out.print(numero.ordenarCrescente(3,2,1));
         
     }
     
-    
+
     
 }
    
