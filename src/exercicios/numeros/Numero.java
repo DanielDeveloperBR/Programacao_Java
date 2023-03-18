@@ -1,4 +1,4 @@
-package basejava.numeros;
+package exercicios.numeros;
 
 public class Numero {
    int valor;
