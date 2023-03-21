@@ -10,7 +10,7 @@ public class Principal {
             while(!novaCor.equals("")){
                 //Entrada de dados
                 novaCor = JOptionPane.showInputDialog("Qual a cor?");
-                if (!novaCor.equals("")){
+                if (!novaCor.equals("")){ 
                  //Criação Objeto
               Bola bolinha = new Bola();
               bolinha.trocaCor(novaCor);

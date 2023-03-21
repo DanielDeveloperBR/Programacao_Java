@@ -1,14 +1,24 @@
 package exercicios.quadrado;
-
 public class Quadrado {
+    /*
+     * Classe Quadrado: Crie uma classe que modele um quadrado:
+     * a. Atributos: Tamanho do lado
+     * b. Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área
+     */
+    private float lado;
 
-    private float tamanho;
+    public float getLado() {
+        return this.lado;
+    }
 
-        public float getTamanho(){
-         return this.tamanho;
+    public void setLado(float lado) {
+        if (lado > 0) {
+            this.lado = lado;
         }
-        public void setTamanho(){
+    }
 
-        }
-    
+    public float calcularArea() {
+        return lado * lado;
+    }
+
 }

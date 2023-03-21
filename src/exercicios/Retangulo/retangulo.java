@@ -6,17 +6,31 @@ c. Crie um programa que utilize esta classe. Ele deve pedir ao usuário que info
 medidades de um local. Depois, deve criar um objeto com as medidas e calcular a
 quantidade de pisos e de rodapés necessárias para o local. */
 
-package exercicios.Retangulo;
+package exercicios.retangulo;
 
-public class retangulo {
+public class Retangulo {
+
     private double ladoA;
     private double ladoB;
 
-    public void setLadoA(double lado){
+    public void setLadoA(double lado) {
         this.ladoA = lado;
     }
-    public void setLadoB(double lado){
-        this.ladoA = lado;
+
+    public double getLadoA() {
+        return this.ladoA;
     }
-    
+
+    public void setLadoB(double lado) {
+        this.ladoB = lado;
+    }
+
+    public double getLadoB() {
+        return this.ladoB;
+    }
+
+    public double calculoArea() {
+        return ladoA * ladoB;
+    }
+
 }
